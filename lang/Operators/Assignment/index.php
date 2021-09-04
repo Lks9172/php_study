@@ -9,6 +9,6 @@
  $message = 'Hello, ';
  echo $message; // -> Hello, 
  echo "\n"; // -> Hello, 
- $message .= 'world';
+ $message .= 'world'; // 문자열 붙이기
 
  echo $message; // -> Hello, world
